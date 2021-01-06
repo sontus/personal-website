@@ -89,8 +89,91 @@ section{
     padding: 0px 10px 0px 20px;
 }
 /* inquiry */
+.inquiry {
+    min-height: 400px;
+    background-image: url('images/inquiry.png');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .inquiry img{
     width: 70%;
     background-repeat: no-repeat;
     margin-left: 200px;
+}
+.quiry-text {
+    font-size: 40px;
+    margin-left: 248px;
+    color: white;
+    float: left;
+    margin-top: 168px;
+}
+.quiry-button {
+    text-decoration: none;
+    padding: 8px 20px;
+    background-image: linear-gradient(45deg,#e26614,#bd2e75);
+    color: white;
+    border-radius: 5px;
+    float: right;
+    margin-right: 265px;
+    margin-top: 177px;
+}
+/* contact section */
+.contact{
+    min-height: 600px;
+    background-color: #f3f1f1;
+}
+.contact h3{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.contact-box{
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.contact input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+}
+.contact textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+}
+.contact-button {
+    text-decoration: none;
+    padding: 8px 20px;
+    background-image: linear-gradient(45deg,#e26614,#bd2e75);
+    color: white;
+    border-radius: 5px;
+    margin-left: 245px;
+}
+/* footer */
+.footer{
+    text-align: center;
+}
+.footer h3{
+    font-size: 30px;
+}
+.footer h6{
+    font-size: 20px;
+}
+.footer ul li {
+    list-style-type: none;
+    display: inline;
+}
+.footer ul li a{
+    text-decoration: none;
+    color:black;
+    padding: 4px 10px;
+}
+.footer img{
+    width: 3%;
 }
