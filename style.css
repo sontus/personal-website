@@ -1,4 +1,5 @@
 body{
+    /* font-family: 'Roboto Slab', serif; */
     font-family: 'Roboto Slab', serif;
     margin: 0;
 }
@@ -31,7 +32,7 @@ section{
     min-height: 500px;
 }
 .hight-light{
-    color: orange;
+    color: tomato;
 }
 .intro-half{
     width: 35%;
@@ -47,13 +48,16 @@ section{
 .action-button{
     text-decoration: none;
     padding: 8px 20px;
-    background-image: linear-gradient(45deg,#585CDF,#462EBD);
+    background-image: linear-gradient(45deg,#e26614,#ff399b);
     color:white;
     border-radius: 5px;
 }
 /* about */
 .about{
     min-height: 500px;
+}
+.about img{
+    width: 85%;
 }
 .about p{
     margin-bottom: 30px;
@@ -111,7 +115,7 @@ section{
 .quiry-button {
     text-decoration: none;
     padding: 8px 20px;
-    background-image: linear-gradient(45deg,#e26614,#bd2e75);
+    background-image: linear-gradient(45deg,#e26614,#ff399b);
     color: white;
     border-radius: 5px;
     float: right;
@@ -150,7 +154,7 @@ section{
 .contact-button {
     text-decoration: none;
     padding: 8px 20px;
-    background-image: linear-gradient(45deg,#e26614,#bd2e75);
+    background-image: linear-gradient(45deg,#e26614,#ff399b);
     color: white;
     border-radius: 5px;
     margin-left: 245px;
